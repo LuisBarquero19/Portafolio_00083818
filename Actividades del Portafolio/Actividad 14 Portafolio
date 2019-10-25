@@ -1,0 +1,50 @@
+Para los siguientes arboles calcule:
+Arbol 1:
+Cuales nodos son la raiz, ramas y hoja.
+El nodo raiz es el A
+Los nodos ramas son el B,D,C,E.
+Los nodos Hoja son G,H,I,F.
+Nivel de cada nodo:
+A=0
+B y C = 1
+D,E  y F = 2
+G, H y I= 3
+Profundidad , peso y orden del arbol.
+Profundidad = 3
+Peso = 9 nodos
+Orden = 2
+Un sub arbol cualquiera:
+el Sub arbol E  conecta al nodo H y I.
+Determine si es lleno o estricto:
+No es un arbol lleno.
+Determine si es perfecto o completo:
+Si es perecto o completo.
+Recorridos:
+In - orden: G,D,R,A,H,E,I,C,F.
+Pre orden: A,B,D,G,C,E,I,F.
+Post orden: G,D,B,H,I,E,F,C,A.
+Arbol 2:
+El nodo raiz es el A.
+Los nodos ramas son B,C,D,H,E,F.
+Los nodos hojas son I,J,G,K,L.
+Nivel de cada nodo:
+A=0
+B=1
+C y D = 2
+E,F,G y H=3
+I, J, K y L=4
+Profundidad, peso y orden del arbol.
+Profundidad= 5
+Peso= 12 nodos
+Orden =  2
+Un sub arbol cualquiera:
+El sub arbol B ya que de el  se despliegan los demas
+Determine si esta lleno o estric.
+No esta lleno.
+Determinar si es perfecto o completo:
+Si es perfecto o completo.
+Recorridos:
+In orden:I,E,C,J,F,B,A,D,G,K,H,L.
+Pre orden: A,B,C,E,I,F,J,D,G,H,K,L.
+Post orden: I,E,J,F,C,G,D,K,L,H,B,A.
+
