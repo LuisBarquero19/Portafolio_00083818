@@ -1,0 +1,48 @@
+A-B/(C*D$E)
+A-B/(C*(DE$))
+A-B/(CDE$*)
+A-(BCDE$*/)
+ABCDE$*/-
+
+1	A		A
+2	-		A			-
+3	B		AB			-
+4	/		AB			-/
+5	(		AB			-/(
+6	C		ABC			-/(
+7	*		ABC			-/(*
+8	D		ABCD			-/(*
+9	$		ABCD			-/(*$
+10	E		ABCDE			-/(*$
+11	)		ABCDE$*			-/
+12			ABCDE$*/-
+
+((A+B)*C-(D-E))$(F+G)
+((AB+)*C-(DE-))$(FG+)
+((AB+C*)-(DE-))$(FG+)
+(AB+C*DE--)$(FG+)
+AB+C*DE--FG+$
+
+
+1	(					(
+2	(					((
+3	A		A			((
+4	+		A			((+
+5	B		AB			((+
+6	)		AB+			(
+7	*		AB+			(*
+8	C		AB+C			(*
+9	-		AB+C*			(-
+10	(		AB+C*			(-(
+11	D		AB+C*D			(-(
+12	-		AB+C*D			(-(-
+13	E		AB+C*DE			(-(-
+14	)		AB+C*DE-		(-	
+15	)		AB+C*DE--
+16	$		AB+C*DE--		$	
+17	(		AB+C*DE--		$(	
+18	F		AB+C*DE--F		$(	
+19	+		AB+C*DE--F		$(+	
+20	G		AB+C*DE--FG		$(+	
+21	)		AB+C*DE--FG+		$
+22			AB+C*DE--FG+$	
